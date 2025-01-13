@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GPAcalcTest
+comment0.text=\n\ The\ test\ class\ GPAcalcTest.\n\n\ @author\ \ King\ Sambonge\n\ @version\ 1.0\ -\ 01/13/2025\n
+comment1.params=
+comment1.target=void\ testValidPercentage()
+comment2.params=
+comment2.target=void\ testEdgeCases()
+comment3.params=
+comment3.target=void\ testInvalidPercentage()
+numComments=4

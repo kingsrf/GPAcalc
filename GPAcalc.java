@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class GPAcalc here.
+ * Program to calculate student GPA.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author King Sambonge - LinkedIn
+ * @version 1.0 - 01/13/2025
  */
 
 import java.util.Scanner;
@@ -35,11 +35,15 @@ public class GPAcalc{
     public static double calculateGPA(double percentage) {
         double gpa;
         
-        if (percentage >= 65.0 && percentage <= 100.0) {
+        // Formula to calculate GPA results
+        if (percentage >= 65.0 && percentage <= 94.9) {
             gpa = (percentage * 0.1) - 5.5;
             return Math.floor(gpa * 10) / 10;
-        } else {
-            return 0.0;
-        }
+        } else if (percentage >= 95.0 && percentage <= 100.0) {
+            return 4.0;
+        } else { 
+            gpa = 0.0;}
+        
+        return gpa;
     }
 }
