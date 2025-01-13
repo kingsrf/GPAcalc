@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GPAcalc
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=percentage
+comment2.target=double\ calculateGPA(double)
+numComments=3
